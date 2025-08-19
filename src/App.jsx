@@ -6,6 +6,7 @@ import Technologies from './components/Technologies';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Greetings from './components/greetings';
+import Certificates from './components/Certificates';
 
 const App = () => {
   const [showMainContent, setShowMainContent] = useState(false);
@@ -31,6 +32,7 @@ const App = () => {
             <About />
             <Technologies />
             <Experience />
+            <Certificates />
             <Contact />
           </div>
         </>

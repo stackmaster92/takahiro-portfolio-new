@@ -15,7 +15,7 @@ export const ABOUT_TEXT =
 
   export const EXPERIENCES = [
     {
-      year: "Mar 2024 – Oct 2024",
+      year: "Aug 2024 – Jun 2025",
       role: "Data Engineer",
       company: "Gravitate (Contract)",
       description:

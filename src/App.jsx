@@ -6,6 +6,7 @@ import Technologies from './components/Technologies';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Greetings from './components/greetings';
+import Projects from './components/Projects';
 import Certificates from './components/Certificates';
 
 const App = () => {
@@ -32,6 +33,7 @@ const App = () => {
             <About />
             <Technologies />
             <Experience />
+            <Projects />
             <Certificates />
             <Contact />
           </div>

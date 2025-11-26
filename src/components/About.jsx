@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-import { motion } from 'framer-motion'; // Import motion from Framer Motion
-import Slideshow from './Slideshow'; // Import Slideshow component
+import { motion } from 'framer-motion';
+import Slideshow from './Slideshow';
 import { ABOUT_TEXT } from '../constants';
 
 const About = () => {
   const [isExpanded, setIsExpanded] = useState(false);
   
-  // Truncate text to show only first 200 characters initially
   const truncatedText = ABOUT_TEXT.slice(0, 900) + '...';
   const displayText = isExpanded ? ABOUT_TEXT : truncatedText;
 
@@ -43,7 +42,6 @@ const About = () => {
           transition={{ duration: 1 }}
           className='w-full lg:w-1/2 mb-8 lg:mb-0'
         >
-          {/* <div className='relative w-full h-64 sm:h-80 lg:h-96'> */}
           <div className='w-full h-full mb-5'>
             <Slideshow />
           </div>

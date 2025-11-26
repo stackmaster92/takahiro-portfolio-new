@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { HERO_CONTENT } from "../constants";
 import { motion } from 'framer-motion';
-import profile from '../assets/hiroshi.png';
 
 const roles = [
   'Senior Software Engineer',
@@ -96,16 +95,6 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2">
-          <div className="flex justify-center lg:justify-end">
-            {/* <motion.img 
-              initial={{ x: 100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ delay: 1.2, duration: 1 }}
-              src={profile} 
-              alt="profile" 
-              className="w-64 rounded-2xl sm:w-80 lg:w-96"
-            /> */}
-          </div>
         </div>
       </div>
     </div>

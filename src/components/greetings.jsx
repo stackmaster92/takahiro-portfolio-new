@@ -77,7 +77,7 @@ const Greetings = ({ onFinish }) => {
       ref={rippleRef}
     >
       <h1 className="text-5xl font-bold text-white">{greetings[currentGreeting]}</h1>
-      <style jsx>{`
+      <style>{`
         .ripple {
           position: absolute;
           border-radius: 50%;
